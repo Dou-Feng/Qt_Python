@@ -31,7 +31,7 @@ PyUIC中Program：`$PYTHON_PATH/python.exe`, Arguments: `-m PyQt5.uic.pyuic $Fil
 
 ### 简单的实例
 
-* 打开Pycharm创建一个项目, 记得合适的解释器（就是安装了Pyqt5的那个）
+* 打开Pycharm创建一个项目, 记得选择合适的解释器（就是安装了Pyqt5的那个）
 
 ![creator_project](./res/create_project.png)
 
