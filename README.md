@@ -22,9 +22,12 @@ pip install pyqt5
 两个工具的配置如下：
 
 ![qt_creator](./res/external_tools_qt.png)
+
+Qt_creator中：`$QT_PATH/[版本号]/mingw_[版本号]/bin/designer.exe`,Working Directory: `$ProjectFileDir$`
+
 ![PYUIC](./res/external_tools_PY.png)
 
-
+PyUIC中Program：`$PYTHON_PATH/python.exe`, Arguments: `-m PyQt5.uic.pyuic $FileName$ -o $FileNameWithoutExtension$.py`, Working Directory: `$FileDir$`
 
 ### 简单的实例
 
